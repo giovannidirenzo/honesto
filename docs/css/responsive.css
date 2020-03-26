@@ -1,0 +1,304 @@
+@media screen and (max-width:900px) {
+
+	body.page-template-page-static-wide-php #headerContainer,
+	body.page-template-page-static-php #headerContainer,
+	body.iDivice #headerContainer,#headerContainer {
+		position:relative;
+	}
+
+	#header {
+		padding:30px 0;
+		width:90%;
+		margin:0 auto;
+		height:auto;
+	}
+
+	a#logo {
+		display:block;
+		text-align:center;
+		padding-bottom:20px;
+		float:none;
+	}
+
+	#dropmenu {
+		display:none;
+	}
+
+	#headerSearch {
+		display:none;
+	}
+
+	#navigation {
+		float:none;
+		margin:0;
+	}
+
+	#selectMenu {
+		position:relative;
+		margin:0 auto;
+		bottom:0;
+		right:0;
+		width:100%;
+		display:block;
+	}
+
+	#topPanel {
+		position:relative;
+		background:#111;
+	}
+
+	.continueOn {
+		display:none!important;
+	}
+
+	#mainPanel.bottomsUp {
+		position:relative;
+	}
+
+	#welcome h1 {
+		font-size:20px;
+	}
+
+	#welcome,.innerTopPanel {
+		width:80%;
+		margin:0 auto;
+	}
+
+	.innerTopPanel #searchform {
+		display:block;
+	}
+
+	.innerTopPanel > h1 {
+		font-size:22px;
+	}
+
+	#nextPrevLinks {
+		min-width:90%;
+		width:90%;
+		margin:20px auto 0;
+		position:relative;
+		left:0;
+		bottom:0;
+	}
+
+	#homeSlider {
+		height:auto;
+		min-height:300px;
+		max-width:50%;
+	}
+
+	.innerSection {
+		padding:80px 0!important;
+	}
+
+	.homeSlide {
+		height:auto;
+		text-align:center;
+	}
+
+	.homeSlide h2.posttitle {
+		font-size:16px;
+	}
+
+	#homeSlideNav {
+		bottom:40px;
+	}
+
+	.slideDetails {
+		left:0!important;
+	}
+
+	.slideDetails p,
+	.slideDetails .viewDetails {
+		display:none!important;
+	}
+
+	#catSlide .slideDetails .viewDetails {
+		display:inherit!important;
+	}
+
+	#prevSlide {
+		left:-50px;
+	}
+
+	#nextSlide {
+		right:-50px;
+	}
+
+	body.page #mainPanel > #main,
+	#mainPanel > #main.videoLess,
+	#mainPanel > #main {
+		padding:80px 0!important;
+		width:80%;
+	}
+
+	body.page .entry,
+	#main.videoLess .entry {
+		margin-bottom:80px!important;
+	}
+
+	.listing .post,
+	.listing .page {
+		margin-bottom:80px;
+		width:100%;
+		text-align:center;
+	}
+
+	/*
+    .tab a.thumbLink,
+    a.thumbLinkWide,
+    a.thumbLink {float: none; margin:0 0 20px; display: inline-block; max-width: 100%;}
+    a.thumbLinkWide {width: 100%;}
+    */
+
+	.thumbLinkWide {
+    	margin: 0 auto;
+		width:70%;
+		height:auto;
+	}
+
+	.thumbLinkWide img {
+		height:auto;
+		min-width:100%;
+		max-width:100%;
+		display:block;
+	}
+
+	#video {
+		position:relative;
+		padding-bottom:56.25%;
+		padding-top:30px;
+		width:90%;
+		height:0;
+		overflow:hidden;
+	}
+
+	#video iframe,
+	#video object,
+	#videor embed {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+
+	#videoTab iframe,
+	#videoTab object,
+	#videoTab embed {
+		width:90%;
+		height:300px;
+	}
+
+	#tabs {
+		padding:100px 0 80px!important;
+		text-align:center;
+		max-width:80%;
+	}
+
+	#tabs > .post {
+		padding-left:25px;
+		padding-right:25px;
+	}
+
+	#tabNav li span {
+		display:none;
+	}
+
+	.tabControls {
+		display:none;
+	}
+
+	.commentlist li img.avatar {
+		display:block;
+		float:none;
+		margin-bottom:10px;
+	}
+
+	.commentlist p {
+		margin:10px 0;
+	}
+
+	#commentsection ul.children {
+		margin-left:30px;
+	}
+
+	input[type="text"],
+	input[type="password"] {
+		width:40%;
+	}
+
+	#relatedPost li {
+		display:block;
+		margin:0 auto 40px!important;
+	}
+
+	form {
+		padding:20px;
+	}
+
+	ul.attachmentGallery {
+		text-align:center;
+	}
+
+	#sidebar {
+		max-width:350px;
+		padding:80px 20px!important;
+		text-align: center;
+	}
+
+	#sidebar ul li.widget:first-child,
+	#sidebar ul li.widget {
+		margin:0 0 50px!important;
+		clear:left;
+		width:100%;
+	}
+
+	#footer {
+		padding:0 20px 50px;
+		text-align:center;
+	}
+
+	#footer .socialicon {
+		float:none;
+		display:inline-block;
+		margin:0 4px;
+	}
+
+	#socialStuff {
+		float:none;
+		padding:0 0 10px;
+	}
+
+	.homeSlide .thumbLink {
+    	display: inline-block;
+        margin: 0 0 20px;
+        max-width: 100% !important;
+        float: none;
+	}
+
+}
+
+@media screen and (max-width:400px) {
+
+	#tabs {
+		max-width:100%;
+		text-align:left;
+	}
+
+	ul.attachmentGallery li {
+		max-width:120px;
+	}
+
+	.innerTopPanel > h1,
+	.listing .post h2.posttitle,
+	.listing .page h2.posttitle,
+	.post h2.posttitle,.entrytitle {
+		font-size:20px;
+	}
+
+	.innerTopPanel > h2 {
+		font-size:14px;
+	}
+
+}
