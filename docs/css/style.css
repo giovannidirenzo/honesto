@@ -815,7 +815,7 @@ body.search-no-results #mainPanel > #main {
 	display: block;
 	text-indent: -999px;
 	overflow: hidden;
-	background-image: url(/honesto/img/arrows.png);
+	background-image: url(/img/arrows.png);
 	top: 50%;
 	margin: -38px 0 0;
 	opacity: .75;
